@@ -6,8 +6,9 @@ var AreaOfTriangle = /** @class */ (function () {
     AreaOfTriangle.prototype.areaTriangle = function () {
         this.area = (this.base * this.height) / 2;
         console.log("The area of the triangle :" + this.area);
+        window.document.body.textContent += "" + this.area;
     };
     return AreaOfTriangle;
 }());
 var areaOfTriangle = new AreaOfTriangle(5, 6);
-areaOfTriangle.areaTriangle;
+areaOfTriangle.areaTriangle();

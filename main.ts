@@ -12,7 +12,8 @@ class AreaOfTriangle{
 
      areaTriangle() {
           this.area =(this.base*this.height)/2;
-        console.log("The area of the triangle :"+this.area);
+          console.log("The area of the triangle :"+this.area);
+          window.document.body.textContent +=`${this.area}`;
     }
 
 }
