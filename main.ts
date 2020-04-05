@@ -1,10 +1,20 @@
+class AreaOfTriangle{
+    base :number;
+    height:number;
+    area:number ;
 
-
-
-    function areaoftriangle( base:number,height:number){
-        var area=(base*height)/2;
-        console.log("The area of the triangle :"+area);
+    constructor(base:number,height:number)
+    {
+        this.base=base;
+        this.height=height;
     }
 
 
-areaoftriangle(5,6);
+     areaTriangle() {
+          this.area =(this.base*this.height)/2;
+        console.log("The area of the triangle :"+this.area);
+    }
+
+}
+var areaOfTriangle = new AreaOfTriangle(5,6);
+areaOfTriangle.areaTriangle();

@@ -10,4 +10,5 @@ var AreaOfTriangle = /** @class */ (function () {
     return AreaOfTriangle;
 }());
 var areaOfTriangle = new AreaOfTriangle(5, 6);
-areaOfTriangle.areaTriangle;
+areaOfTriangle.areaTriangle();
+//# sourceMappingURL=main.js.map
